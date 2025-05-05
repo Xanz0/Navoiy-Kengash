@@ -1,0 +1,151 @@
+.footer {
+    background-color:#003087; /* Footer fon rangi */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+
+  }
+  
+  .footer-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-top {
+    width: 1552px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+  }
+  
+  .footer-top-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .footer-top-left h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .footer-top-right {
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+  }
+  
+  .right-desc2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    display: inline-block;  
+  }
+  
+  .right-icons2 {
+    display: flex;
+    padding: 18px 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px; /* Iconlar orasidagi masofa */
+  }
+  
+  .icons-item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+  
+  .icons-item2:hover {
+    background-color: #e0e0e0;
+  }
+.icons-item2 svg:hover {
+    fill: #003087; /* Hover holatidagi rang */
+  }
+  .right-icons2 a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Iconlar uchun qo'shimcha stil */
+  .ic11, .ic22, .ic33, .ic44 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-bottom-des{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .footer-bottom-des li{
+    display: flex;
+    justify-content:space-between;
+    padding: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }  
+  .item-li{
+    padding: 0;
+  }
+  .bottom-desc p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    display: inline-block;
+    list-style: none;
+    transition: all .3s ease-in-out;
+    margin: 0;
+    
+  }
+  .bottom-desc2{
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-desc2 p{
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    align-items: start;
+  }
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    
+    .footer-top-right {
+      align-items: flex-start;
+    }
+  }

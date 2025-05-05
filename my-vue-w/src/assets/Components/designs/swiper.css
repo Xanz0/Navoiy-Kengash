@@ -1,0 +1,49 @@
+/* swiper.css */
+
+.swiper-container {
+    width: 100%;
+    text-align: center;
+    /* margin: 20px; */
+  }
+  
+  .swiper-slide {
+    position: relative;
+    max-width: 1550px;
+    height:max-content;
+    margin: 0 auto;
+  }
+  
+  .swiper-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .swiper-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .swiper-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .swiper-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .swiper-indicator.active {
+    background: #333;
+  }
