@@ -15,7 +15,7 @@ const Footer=()=>{
                     <div className="footer-top">
                     <div className="footer-top-left">
                         <img src="https://web.archive.org/web/20121102102633/http://upload.wikimedia.org/wikipedia/commons/5/5d/Coat_of_Arms_of_Uzbekistan.svg" alt="uzb.gerb" width={70} />
-                        <h3>Xalq deputatlari navoiy viloyai kengashi</h3>
+                        <h3>Xalq deputatlari navoiy viloyat kengashi</h3>
                     </div>
                     <div className="footer-top-right">
                                   <p className="right-desc2">Biz ijtimoiy tarmoqlarda</p>

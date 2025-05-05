@@ -62,7 +62,7 @@ const Header = () => {
             <div className="m-t">
             <div className="middle-left">
                 <img src="https://web.archive.org/web/20121102102633/http://upload.wikimedia.org/wikipedia/commons/5/5d/Coat_of_Arms_of_Uzbekistan.svg" alt="uzb.gerb" />
-                <h3>Xalq deputatlari navoiy viloyai kengashi</h3>
+                <h3>Xalq deputatlari navoiy viloyat kengashi</h3>
                 </div>
                 <div className="middle-right">
                     <div className="right-r1"><GiSunglasses color="#003087"/></div>

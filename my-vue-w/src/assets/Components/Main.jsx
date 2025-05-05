@@ -2,6 +2,7 @@ import "./designs/main.css"
 
  import Swiper from "./Swiper.jsx";
  import NewsCards from "./NewsCards.jsx";
+ import BottomCards from "./BottomCards.jsx";
 
 
 function Main() {
@@ -10,6 +11,9 @@ function Main() {
             <Swiper />
 
             <NewsCards />
+            
+            
+            <BottomCards /> 
         </div>
     );
 }
