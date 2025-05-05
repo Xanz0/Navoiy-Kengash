@@ -8,7 +8,6 @@ function Main() {
     return (
         <div>
             <Swiper />
-
             <NewsCards />
         </div>
     );
