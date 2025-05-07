@@ -5,6 +5,7 @@ import "./designs/main.css"
  import BottomCards from "./BottomCards.jsx";
  import Leader from "./Leader.jsx";
 import Links from "./Links.jsx";
+import Deputates from "./Deputates.jsx";
 
 
 function Main() {
@@ -14,9 +15,12 @@ function Main() {
 
             <NewsCards />
             
-            
             <BottomCards /> 
+
             <Leader />
+            
+            <Deputates/>
+            
             <Links/>
         </div>
     );

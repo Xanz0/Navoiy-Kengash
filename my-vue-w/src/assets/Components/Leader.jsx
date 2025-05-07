@@ -17,7 +17,7 @@ const Leader = () => {
                             <ul>
                                 <li className="item-it"><a href="https://facebook.com"><FaFacebook /></a></li>
                                 <li className="item-it"><a href="https://instagram.com"><FaInstagram/></a></li>
-                                <li className="item-it"><a href="https://telegram.com"><FaTelegram /></a></li>
+                                <li className="item-it"><a href="https://.com"><FaTelegram /></a></li>
                                 <li className="item-it"><a href="https://twitter.com"><FaTwitter  /></a></li>
                                 
                                 

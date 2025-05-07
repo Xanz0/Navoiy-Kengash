@@ -1,0 +1,80 @@
+.deputates{
+    margin-top: 100px;
+}
+.dep-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.bbb{height: 0.1px;
+    background: #d6d3d3;
+    margin:0;
+}
+.nav-card{
+    width: 450px;
+    height: 515px;
+}
+.dep-list{
+    padding: 20px;
+    background: #f3f7ff;
+    border-radius: 4px;
+    position: relative;
+    height: 550px;
+    display: flex
+;
+    flex-direction: column;
+
+}
+.li-topper{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.dep-title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #003087;
+}
+.dep-tit{
+    font-size: 16px;
+    color: #003087;
+    margin: 0;
+}
+.dep-items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dep-li{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #E5E5E5;
+    width: 500px;
+}
+.dep-li-r h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #212121;
+    margin-bottom: 4px;
+    text-align: start;
+    margin: 0;
+}
+.dep-li-r p{
+    opacity: .8;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+
