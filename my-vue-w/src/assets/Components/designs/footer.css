@@ -109,7 +109,7 @@
     color: #fff;
   }  
   .item-li{
-    padding: 0;
+    padding: 0; 
   }
   .bottom-desc p{
     font-style: normal;
@@ -126,7 +126,13 @@
   .bottom-desc2{
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
+  .bottom-desc2 svg{
+    margin-top: 4px;
+    margin-right: 5px;
+  }
+
   .bottom-desc2 p{
     margin: 0;
     font-style: normal;

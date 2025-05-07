@@ -1,0 +1,74 @@
+.links-wrapper{
+   padding: 5px;
+}
+.links-title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    margin-bottom: 0;
+    color: #212121;
+    text-align: start;
+}
+ .links-list{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    list-style: none;
+    padding: 0;
+}
+.links-cards{
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+width: 346px;
+height: auto;
+padding: 15px;
+}
+.link-c-t{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* margin-top: 20px; */
+}
+.link-c-t p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+    margin: 0;
+    text-align: start;
+}
+.link-c-b{
+    background: rgba(0, 0, 0, .04);
+    padding: 4px 8px;
+    text-align: start;
+    display: flex;
+    gap: 8px;
+    height: 24px;
+    margin-top: 10px;
+};
+.link-c-b p{
+    text-align: start;
+    color: #003086;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+}
+.l-c-b{
+    text-align: start;
+    color: #003086;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+   
+}
+.link-c-b svg{
+    color: #003086;
+    margin-top: 4px;
+}

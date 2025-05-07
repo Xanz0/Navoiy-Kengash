@@ -4,6 +4,7 @@ import "./designs/main.css"
  import NewsCards from "./NewsCards.jsx";
  import BottomCards from "./BottomCards.jsx";
  import Leader from "./Leader.jsx";
+import Links from "./Links.jsx";
 
 
 function Main() {
@@ -16,6 +17,7 @@ function Main() {
             
             <BottomCards /> 
             <Leader />
+            <Links/>
         </div>
     );
 }
