@@ -12,15 +12,10 @@ function Main() {
     return (
         <div>
             <Swiper />
-
-            <NewsCards />
-            
+            <NewsCards />    
             <BottomCards /> 
-
-            <Leader />
-            
-            <Deputates/>
-            
+            <Leader />        
+            <Deputates/>           
             <Links/>
         </div>
     );
