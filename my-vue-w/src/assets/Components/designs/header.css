@@ -423,11 +423,13 @@ a{
 
   /* Navigation Dropdown Styles */
 .nav-item {
+    color: #0920a7;
     position: relative;
     cursor: pointer;
   }
   
   .nav-item-content {
+    color:#003087;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -451,9 +453,10 @@ a{
   }
   
   .dropdown-item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
     padding: 10px 15px;
-    color: #333;
+    color: #0906a1;
     text-decoration: none;
     transition: background-color 0.2s;
   }

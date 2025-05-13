@@ -1,0 +1,237 @@
+/* ASOSIY KONTEYNER */
+.leader-crud-container77788 {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* SARLAVHA */
+.leader-crud-container77788 h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+/* INPUTLAR */
+.leader-input_01 {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.leader-input_01:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  outline: none;
+}
+
+/* TEXTAREALAR */
+.leader_textarea_01 {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  min-height: 120px;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+.leader_textarea_01:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* SELECT */
+.leader-select-01, .select-leader-012 {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* QO'SHISH TUGMASI */
+.leader-add-01 {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+.leader-add-01:hover {
+  background: #2ecc71;
+  transform: translateY(-2px);
+}
+
+/* JADVAL */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.leader-show-01 {
+  background: #34495e;
+  color: white;
+}
+
+.leader-show-01 th {
+  padding: 15px;
+  text-align: left;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+table tr:hover {
+  background: #f9f9f9;
+}
+
+/* TUGMALAR */
+table button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+table button:first-child {
+  background: #3498db;
+  color: white;
+}
+
+table button:first-child:hover {
+  background: #2980b9;
+}
+
+table button:last-child {
+  background: #e74c3c;
+  color: white;
+}
+
+table button:last-child:hover {
+  background: #c0392b;
+}
+
+/* PAGINATION */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 2rem 0;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.pagination button.active {
+  background: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+/* TAXRIRLASH FORMASI */
+.edit-form {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: 1px solid #eee;
+}
+
+.edition-leader {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.edition-text-01, .edition-textarea-01 {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.edition-textarea-01 {
+  min-height: 120px;
+}
+
+/* TAXRIRLASH TUGMALARI */
+.change-leader-01 {
+  background: #3498db;
+  color: white;
+  padding: 12px 24px;
+  margin-right: 1rem;
+}
+
+.noChange-leader-01 {
+  background: #95a5a6;
+  color: white;
+  padding: 12px 24px;
+}
+
+.change-leader-01:hover {
+  background: #2980b9;
+}
+
+.noChange-leader-01:hover {
+  background: #7f8c8d;
+}
+
+
+table img {
+  width: 75px;
+  height: 80px;
+  /* object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #eee; */
+} 
+
+/* img-leader-01{
+  width: 70px;
+  height: 85px;
+} */
+
+/* RESPONSIVLIK */
+@media (max-width: 768px) {
+  .leader-crud-container77788 {
+    padding: 1rem;
+  }
+  
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}

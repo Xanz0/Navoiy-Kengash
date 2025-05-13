@@ -1,0 +1,23 @@
+.App-header-221111 {
+    display: flex;
+    height:100%;
+}
+
+.nav-all122222 {
+    width: 320px;
+    background-color: #1027e1;
+}
+
+.content-view2 {
+    flex: 1;
+    padding: 20px;
+}
+.crud-all99999{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:#06137c;
+
+}
+.crud-122333 {
+    list-style: none;
+}
