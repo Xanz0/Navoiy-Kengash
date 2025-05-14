@@ -37,7 +37,7 @@ const NewsCards = () => {
             <h2>News Title 4</h2>
             <p>Senat Raisi boshchiligidagi ishchi guruh Farg‘ona viloyatida o‘rganishlar olib bordi.</p>
         </div>
-        <div className="news-card">
+        {/* <div className="news-card">
             
             <img src="https://senat.uz/media/post/slider/4e0pBWuwAPRDDLj5rscelT4ty0E1QW.jpg" alt="News 1" width={360}/>
             <h2>News Title 1</h2>
@@ -84,7 +84,7 @@ const NewsCards = () => {
             <img src="https://senat.uz/media/post/slider/xtPmsEkf6yQrCGORTaT0VtWCFdsGrp.jpg" alt="News 4" width={360}/>
             <h2>News Title 4</h2>
             <p>Senat Raisi boshchiligidagi ishchi guruh Farg‘ona viloyatida o‘rganishlar olib bordi.</p>
-        </div>
+        </div> */}
 
 
 

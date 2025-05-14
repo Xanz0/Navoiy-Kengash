@@ -22,10 +22,14 @@ import Reports from "./AllRootRoutes/Reports";
 import SenatorsInTheRegions from "./AllRootRoutes/SenatorsInTheRegions";
 import Structure from "./AllRootRoutes/Structure";
 import StudyOfTheImplementationOfLegalDocument from "./AllRootRoutes/StudyOfTheImplementationOfLegalDocuments";
+import Admin from "./Admin";
+
 
 const App = () => {
   return (
     <div>
+          
+
       <Router>
         <Header />
         <Routes>
@@ -38,6 +42,7 @@ const App = () => {
             }
           />
 
+            
           <Route path="/raxbarlar" element={<Leaders/>} />
           <Route path="/tuzilma" element={<Structure/>} />
           <Route path="/history" element={<History/>} />
@@ -61,6 +66,7 @@ const App = () => {
 
           <Route path="/hisobotlar" element={<Reports/>} />
           <Route path="/physiotherapy" element={<Analyses/>} />
+          <Route path="/admin" element={<Admin />} />
 
         </Routes>
         <Footer />

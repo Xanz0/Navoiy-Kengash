@@ -14,19 +14,21 @@
   }
   
   .swiper-image {
-    width: 100%;
+    width: 90%;
     border-radius: 8px;
   }
   
   .swiper-caption {
+    width: 89%;
     position: absolute;
-    bottom: 10px;
-    left: 0;
+    bottom: 20px;
+    left: 77px;
     right: 0;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 8px;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0;
   }
   
   .swiper-indicators {

@@ -244,11 +244,26 @@ a{
     height: 68px;
     display: flex;
     align-items: center;
-    padding: 0 40px;
-    justify-content: space-between;
+    padding: 0 80px;
+    justify-content: center ;
     margin-top: 120px;
    
     
+}
+/* .nav-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} */
+.nav-menu svg{
+    width: 24px;
+    height: 24px;
+    color: #003087;
+    cursor: pointer;
+}
+.nav-menu svg:hover{
+    color: rgb(222, 69, 69);
 }
 .nav-ul{
     list-style: none;
@@ -258,7 +273,7 @@ a{
 }
 .nav-ul p{
     align-items: center;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 17px;
     line-height: 120%;
     color: #212121;
@@ -276,23 +291,6 @@ a{
 .nav-ul svg:hover{
     color: #003087;
 }
-.nav-right input:hover{
-    color: #003087;
-    border: 1px solid #003087;
-    border-radius: 1%;
-}
-.nav-right svg:hover{
-    color: #003087;
-}
-.nav-right input{
-    width: 250px;
-    height: 30px;
-}
-.nav-right svg{
-    margin-left: 5px;
-    cursor: pointer;
-}
-
 .dark-mode {
     background-color: #020258;
     color: #fff;
@@ -306,7 +304,7 @@ a{
   .accessibility-menu {
     position: absolute;
     top: 55px;
-    left: -55px;
+    left: -100px;
     background-color: #f1f1f1;
     padding: 10px;
     border: 1px solid #ccc;
@@ -451,7 +449,6 @@ a{
     z-index: 1000;
     animation: fadeIn 0.2s ease-out;
   }
-  
   .dropdown-item {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
@@ -480,3 +477,67 @@ a{
   .sticky + .wrapper-nav {
     margin-top: 60px;
   }
+
+
+
+
+
+
+
+
+
+
+
+  /* Hamburger menu */
+.nav-menu {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: 1000;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.mobile-nav-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav-item {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-dropdown-menu {
+  padding: 10px 0 0 20px;
+}
+
+.mobile-dropdown-item {
+  display: block;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: block;
+  }
+  
+  .nav-left {
+    display: none;
+  }
+}
