@@ -72,6 +72,8 @@
 
 //   // Close dropdown when clicking outside
 //   const dropdownRef = useRef(null);
+
+
 //   useEffect(() => {
 //     const handleClickOutside = (event) => {
 //       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -647,6 +649,10 @@ const Header = () => {
                 </ul>
               </div>
             </div>
+
+ 
+  
+
 
             {/* Middle Section - Sticky bo'ladigan qism */}
             <div className="head-mid">
