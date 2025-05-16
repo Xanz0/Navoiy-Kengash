@@ -1,0 +1,284 @@
+/* Asosiy konteyner */
+.container999955 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Sarlavha */
+.TITLE_01 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Forma stilizatsiyasi */
+.form-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title-info-01, .header-info-01, .select-img-01 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.header-info-01 {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.form-info button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.form-info button:hover {
+  background-color: #2980b9;
+}
+
+/* Jadval stilizatsiyasi */
+.info-table-01 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.info-thead-01 {
+  background-color: #34495e;
+  color: white;
+}
+
+.info-tr-01 th {
+  padding: 12px;
+  text-align: left;
+}
+
+.info-tbody-01 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.paginatedData-w-01:hover {
+  background-color: #e6e6e6;
+}
+
+.pag-info-01 {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Rasm stilizatsiyasi */
+.img-info-01 {
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Amallar tugmalari */
+.p-info-w-01, .p-info-w-02 {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.p-info-w-01 {
+  background-color: #f39c12;
+  color: white;
+}
+
+.p-info-w-02 {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.p-info-w-01:hover {
+  background-color: #d35400;
+}
+
+.p-info-w-02:hover {
+  background-color: #c0392b;
+}
+
+/* Paginatsiya */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination button.active {
+  background-color: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+/* Tahrirlash formasi */
+.edit-form-01 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-width: 500px;
+  width: 90%;
+}
+
+.edition-info-01 {
+  margin-top: 0;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.info-title-uz-01 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.info-change-01, .info-ignore-01 {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.info-change-01 {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.info-ignore-01 {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.info-change-01:hover {
+  background-color: #27ae60;
+}
+
+.info-ignore-01:hover {
+  background-color: #7f8c8d;
+}
+
+
+/* Tahrirlash formasi stilizatsiyasi */
+.edit-form-01 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.edition-info-01 {
+  margin-top: 0;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-form-group {
+  margin-bottom: 15px;
+}
+
+.edit-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.edit-form-input, .edit-form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.edit-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.info-change-01, .info-ignore-01 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.info-change-01 {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.info-ignore-01 {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.info-change-01:hover {
+  background-color: #27ae60;
+}
+
+.info-ignore-01:hover {
+  background-color: #7f8c8d;
+}
