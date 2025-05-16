@@ -8,6 +8,7 @@ import LawsCRUD from "./shows/LawsCRUD";
 import LeaderCRUD from "./shows/LeaderCRUD";
 import MeetingCRUD from "./shows/MeetingCRUD";
 import NewsCRUD from "./shows/NewsCRUD";
+import InformationCRUD from "./shows/InformationCRUD";
 
 import CustomerF from "./shows/CustomerF";
 import EventF from "./shows/EventF";
@@ -16,6 +17,7 @@ import LawsF from "./shows/LawsF";
 import LeaderF from "./shows/LeaderF";
 import MeetingF from "./shows/MeetingsF";
 import NewsF from "./shows/NewsF";
+import InformationF from "./shows/InformationF";
 
 const DashbortMain = () => {
     const [currentView, setCurrentView] = useState(null);
@@ -28,6 +30,7 @@ const DashbortMain = () => {
         { label: <LeaderF />, component: <LeaderCRUD /> },
         { label: <MeetingF />, component: <MeetingCRUD /> },
         { label: <NewsF />, component: <NewsCRUD /> },
+        { label: <InformationF />, component: <InformationCRUD/> },
     ];
 
     return (

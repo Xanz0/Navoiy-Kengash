@@ -3,12 +3,12 @@ import axios from 'axios';
 import "../designDashbort/NewsAllCRUD.css"
 
 const API_BASE_URL = import.meta.env.VITE_API_URL;
-const API_URL = `${API_BASE_URL}/api/News/qonun-hujjatlarining-ijrosini-o'rganish/`;
+const API_URL = `${API_BASE_URL}/api/News/mediateka/`;
 const IMAGE_API_URL = `${API_BASE_URL}/api/Image/all`;
 const INFORMATION_API_URL = `${API_BASE_URL}/api/Information`;
 const ITEMS_PER_PAGE = 10;
 
-const LawsCRUD = () => {
+const NewsCRUD = () => {
   const [data, setData] = useState([]);
   const [images, setImages] = useState([]);
   const [informations, setInformations] = useState([]);
@@ -114,7 +114,7 @@ const LawsCRUD = () => {
 
   return (
     <div className="container-newsAllCRUd">
-      <h2 className='title-news-h1'>Qonun hujjatlarining ijrosini o'rganish</h2>
+      <h2 className='title-news-h1'>Mediateka</h2>
       <div className="form-news-01">
         <input className='title-news-01' name="titleUz" value={formData.titleUz} onChange={handleChange} placeholder="Sarlavha (Uz)" />
         <input className='title-news-01' name="titleEn" value={formData.titleEn} onChange={handleChange} placeholder="Sarlavha (En)" />
@@ -199,4 +199,4 @@ const LawsCRUD = () => {
   );
 };
 
-export default LawsCRUD;
+export default NewsCRUD;

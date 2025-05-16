@@ -24,6 +24,9 @@ import Structure from "./AllRootRoutes/Structure";
 import StudyOfTheImplementationOfLegalDocument from "./AllRootRoutes/StudyOfTheImplementationOfLegalDocuments";
 import Admin from "./Admin";
 
+import DeputatDetails from "./AllRootRoutes/DeputatDetails";
+import DeputatlarBarchasi from "./AllRootRoutes/DeputatlarAll";
+
 
 const App = () => {
   return (
@@ -67,6 +70,10 @@ const App = () => {
           <Route path="/hisobotlar" element={<Reports/>} />
           <Route path="/physiotherapy" element={<Analyses/>} />
           <Route path="/admin" element={<Admin />} />
+
+
+          <Route path="/deputatlar" element={<DeputatlarBarchasi/>} />
+          <Route path="/deputat/:id" element={<DeputatDetails />} />
 
         </Routes>
         <Footer />

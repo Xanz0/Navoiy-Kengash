@@ -1,6 +1,7 @@
+import Leader from "../assets/Components/Leader";
 const Leaders=()=>{
    return (
-     <h1>Hello world</h1>
+     <Leader/>
    );
 }
 export default Leaders
