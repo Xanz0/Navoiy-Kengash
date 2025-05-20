@@ -71,8 +71,9 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
 const API_URL = `${import.meta.env.VITE_API_URL}/api/Leader`;
-const IMAGE_API_URL = `${import.meta.env.VITE_API_URL}/api/Image`;
+const IMAGE_API_URL = `${import.meta.env.VITE_API_URL}/api/Image`; 
 
+8
 const Deputates = () => {
     const [leaders, setLeaders] = useState([]);
     const { i18n } = useTranslation();
@@ -81,7 +82,7 @@ const Deputates = () => {
     useEffect(() => {
         fetchLeaders();
     }, []);
-
+    // Fetch leaders data from API
     const fetchLeaders = async () => {
         try {
             const response = await axios.get(API_URL);
@@ -90,7 +91,8 @@ const Deputates = () => {
             console.error("Error fetching leaders:", error);
         }
     };
-
+    
+    // Helper function to get localized field
     const getLocalizedField = (item, field) => {
         const lang = i18n.language || 'uz';
         const key = `${field}${lang.charAt(0).toUpperCase()}${lang.slice(1)}`;

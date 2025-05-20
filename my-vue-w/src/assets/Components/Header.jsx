@@ -15,7 +15,7 @@ import { RiTranslate2 } from "react-icons/ri";
 import { IoMdPerson } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import { Link } from "react-router-dom";
-
+import Modal from "./Modal";
 const Header = () => {
   const { t, i18n } = useTranslation();
   const [textSize, setTextSize] = useState(100);
@@ -151,12 +151,21 @@ const Header = () => {
     minute: "2-digit",
   });
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+   const menuRef = useRef(null);
+
+  const [isModalOpen, setModalOpen] = useState(false);
+
+
+
   return (
     <header className="header">
       <div className="head">
         <div className="container">
+        
           <div className="wrapper">
             {/* Top Section */}
+            
             <div className="wrapper-top">
               <div className="top-left">
                 <div className="left-l">{formattedTime}</div>
@@ -306,14 +315,80 @@ const Header = () => {
             </div>
 
             {/* Navigation Section with Dropdown */}
-            <div className="wrapper-nav" ref={dropdownRef}>
+            <div className="wrapper-nav"
+             ref={dropdownRef}>
+              {/* <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <IoMenu size={28} />
+        </div> */}
+            <div className="nav-left">
+              {/* <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+  <IoMenu size={28} />
+            </div> */}
+            <div className="nav-menu" 
+            // onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+          {/* <IoMenu size={28} /> */}
+         
+       
+      <button className="modal-btn" onClick={() => setModalOpen(true)}><IoMenu size={28}/></button>
+      <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)}>
 
-              <div className="nav-menu">
-                <IoMenu/>
-                              </div>
+                <div 
+              className={`nav-container ${isMenuOpen ? "open" : ""}`}
+          ref={dropdownRef}>
 
-              <div className="nav-left">
-                <ul className="nav-ul">
+              <ul className="nav-listt">
+  {navItems.map((item) => (
+    <li
+      key={item}
+      className={`nav-itemm ${activeDropdown === item ? "active" : ""}`}
+      // onClick={() => toggleDropdown(item)}
+    >
+      <div className="nav-item-contentt">
+        <p>{t(item)}</p>
+      </div>
+
+      {dropdownItems[item]?.length > 0 && (
+        <ul className="dropdown-listt">
+          {dropdownItems[item].map((subItem) => (
+            <li key={subItem.label} className="dropdown-itemm">
+              <Link
+                to={subItem.path}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setModalOpen(false);
+                }}
+              >
+                {t(subItem.label)}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </li>
+  ))}
+</ul>
+                
+              </div>
+
+      </Modal>
+
+               
+
+
+
+            </div>
+                
+            </div>
+
+
+             <div 
+              className={`nav-container ${isMenuOpen ? "open" : ""}`}
+          ref={dropdownRef}>
+
+            
+
+                <ul className="nav-list">
                   {navItems.map((item) => (
                     <li
                       key={item}
@@ -333,6 +408,7 @@ const Header = () => {
 
                       {activeDropdown === item && (
                         <div className="dropdown-menu">
+
                           {dropdownItems[item]?.map((subItem) => (
                             // <a
                             //   key={subItem}
@@ -370,3 +446,10 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+
+
+
+

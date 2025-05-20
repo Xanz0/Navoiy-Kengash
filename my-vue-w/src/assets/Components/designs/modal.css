@@ -1,0 +1,108 @@
+.modal-overlay {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color:#003087;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s ease-in-out;
+  z-index: 9999;
+  
+}
+.modal-overlay.open {
+  top: 0;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-content {
+  width: 100%;
+  padding:100px 20px;
+  position: relative;
+  animation: slideDown 0.4s ease forwards;
+  color:#FFF;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 100px;
+  right: 255px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.modal-body {
+  margin-top: 30px;
+}
+.nav-item-contentt p{
+  color: #5f84ca;
+  font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+/* .dropdown-itemm{
+  color: #a21919;
+} */
+ .nav-listt{
+  padding: 100px;
+  display: flex;
+  align-items:baseline;
+  justify-content: center;
+  gap: 70px;
+  list-style: none;
+ }
+ .nav-itemm {
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items:baseline;gap: 10px;
+  
+ }
+ .nav-itemm p, .nav-itemm a{
+  margin: 0;
+  padding: 0;
+ }
+.nav-itemm a{
+  font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: none;
+}
+ .nav-itemm a:hover{
+  background:none;
+ }
+ .dropdown-itemm:hover{
+  background: none;
+ }
+ .dropdown-listt{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+ }
+ .dropdown-itemm{
+ 
+ }
